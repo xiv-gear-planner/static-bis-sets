@@ -1,8 +1,10 @@
 {
   "name": "WHM 6.4",
+  "description": "Best-in-slot sets for The Anabaseios raid tier in 6.4",
   "sets": [
     {
       "name": "6.4 Never gonna",
+      "description": "Test set 1",
       "items": {
         "Weapon": {
           "id": 40173,
