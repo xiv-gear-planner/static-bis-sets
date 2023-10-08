@@ -1,0 +1,1 @@
+{"name":"PLD Tea","sets":[{"name":"Default Set","items":{}}],"level":80,"job":"PLD","partyBonus":0,"sims":[{"stub":"pr-sim","settings":{},"name":"Dmg/100p"}],"itemDisplaySettings":{"minILvl":450,"maxILvl":475,"minILvlFood":440,"maxILvlFood":475},"mfni":false,"mfp":["skillspeed","crit","dhit","determination","tenacity"],"mfMinGcd":2.05}
