@@ -1,553 +1,128 @@
 {
-  "name": "SGE TOP BiS",
-  "sets": [
-    {
-      "name": "6.5 TOP BiS - Crit/Det Relic",
-      "items": {
-        "Wrist": {
-          "id": 38074,
-          "materia": [
-            {
-              "id": 33931
-            },
-            {
-              "id": 33933
-            }
-          ]
+  "name": "6.5 TOP BiS - Non Relic Weapon",
+  "items": {
+    "Weapon": {
+      "id": 38098,
+      "materia": [
+        {
+          "id": 33931
         },
-        "RingRight": {
-          "id": 38154,
-          "materia": [
-            {
-              "id": 33931
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Legs": {
-          "id": 38054,
-          "materia": [
-            {
-              "id": 33931
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Head": {
-          "id": 38051,
-          "materia": [
-            {
-              "id": 33942
-            },
-            {
-              "id": 33933
-            }
-          ]
-        },
-        "RingLeft": {
-          "id": 40818,
-          "materia": [
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Neck": {
-          "id": 38069,
-          "materia": [
-            {
-              "id": 33932
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Body": {
-          "id": 38127,
-          "materia": [
-            {
-              "id": 33931
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Hand": {
-          "id": 40792,
-          "materia": [
-            {
-              "id": 33932
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Ears": {
-          "id": 40803,
-          "materia": [
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Weapon": {
-          "id": 39937,
-          "materia": [],
-          "relicStats": {
-            "dhit": 0,
-            "crit": 293,
-            "spellspeed": 72,
-            "determination": 293,
-            "piety": 0
-          }
-        },
-        "Feet": {
-          "id": 38130,
-          "materia": [
-            {
-              "id": 33931
-            },
-            {
-              "id": 33931
-            }
-          ]
+        {
+          "id": 33931
         }
-      },
-      "food": 39876
+      ]
     },
-    {
-      "name": "2.50 Hi Pi No Relic",
-      "items": {
-        "Weapon": {
-          "id": 38098,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33933
-            }
-          ]
+    "Head": {
+      "id": 38051,
+      "materia": [
+        {
+          "id": 33931
         },
-        "Head": {
-          "id": 38051,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Body": {
-          "id": 38127,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33933
-            }
-          ]
-        },
-        "Hand": {
-          "id": 38128,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33933
-            }
-          ]
-        },
-        "Legs": {
-          "id": 38054,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33933
-            }
-          ]
-        },
-        "Feet": {
-          "id": 38130,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Ears": {
-          "id": 38064,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33933
-            }
-          ]
-        },
-        "Neck": {
-          "id": 38144,
-          "materia": [
-            {
-              "id": 33932
-            },
-            {
-              "id": 33932
-            }
-          ]
-        },
-        "Wrist": {
-          "id": 38074,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "RingLeft": {
-          "id": 38154,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "RingRight": {
-          "id": 38079,
-          "materia": [
-            {
-              "id": 33932
-            },
-            {
-              "id": 33933
-            }
-          ]
+        {
+          "id": 33931
         }
-      },
-      "food": 38264,
-      "description": "Very safe MP set for those who want to go in without worrying about mana. Likely much more mana than is actually required, as the fight does not allow for recovery from a death in many phases."
+      ]
     },
-    {
-      "name": "2.47 Medium Pi No Relic",
-      "items": {
-        "Weapon": {
-          "id": 38098,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33933
-            }
-          ]
-        },
-        "Head": {
-          "id": 38051,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Body": {
-          "id": 38127,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33933
-            }
-          ]
-        },
-        "Hand": {
-          "id": 38128,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33933
-            }
-          ]
-        },
-        "Legs": {
-          "id": 38054,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33933
-            }
-          ]
-        },
-        "Feet": {
-          "id": 38130,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Ears": {
-          "id": 38064,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33933
-            }
-          ]
-        },
-        "Neck": {
-          "id": 38069,
-          "materia": [
-            {
-              "id": 33932
-            },
-            {
-              "id": 33933
-            }
-          ]
-        },
-        "Wrist": {
-          "id": 38074,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "RingLeft": {
-          "id": 38154,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "RingRight": {
-          "id": 38079,
-          "materia": [
-            {
-              "id": 33932
-            },
-            {
-              "id": 33933
-            }
-          ]
+    "Ears": {
+      "id": 40803,
+      "materia": [
+        {
+          "id": 33931
         }
-      },
-      "food": 38264,
-      "description": "Very good amount of piety for prog and a slow GCD to help conserve MP. \n\nTerrible GCD for alignment, but ultimates have so much downtime that it's usually not an issue. Feel free to meld up closer to 2.40 if it bothers you. "
+      ]
     },
-    {
-      "name": "2.42 Tome Ring",
-      "items": {
-        "Weapon": {
-          "id": 38098,
-          "materia": [
-            {
-              "id": 33931
-            },
-            {
-              "id": 33931
-            }
-          ]
+    "Body": {
+      "id": 38127,
+      "materia": [
+        {
+          "id": 33931
         },
-        "Head": {
-          "id": 38051,
-          "materia": [
-            {
-              "id": 33931
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Body": {
-          "id": 38127,
-          "materia": [
-            {
-              "id": 33931
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Hand": {
-          "id": 38053,
-          "materia": [
-            {
-              "id": 33932
-            },
-            {
-              "id": 33932
-            }
-          ]
-        },
-        "Legs": {
-          "id": 38054,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33933
-            }
-          ]
-        },
-        "Feet": {
-          "id": 38130,
-          "materia": [
-            {
-              "id": 33931
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Ears": {
-          "id": 38139,
-          "materia": [
-            {
-              "id": 33932
-            },
-            {
-              "id": 33932
-            }
-          ]
-        },
-        "Neck": {
-          "id": 38069,
-          "materia": [
-            {
-              "id": 33932
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "Wrist": {
-          "id": 38074,
-          "materia": [
-            {
-              "id": 33931
-            },
-            {
-              "id": 33933
-            }
-          ]
-        },
-        "RingLeft": {
-          "id": 38154,
-          "materia": [
-            {
-              "id": 33933
-            },
-            {
-              "id": 33931
-            }
-          ]
-        },
-        "RingRight": {
-          "id": 38079,
-          "materia": [
-            {
-              "id": 33932
-            },
-            {
-              "id": 33942
-            }
-          ]
+        {
+          "id": 33931
         }
-      },
-      "food": 38264,
-      "description": "Less piety than the other options, but provides the highest possible damage without sacrificing any vitality. \nIf you wish to squeeze out very slightly more damage, you may use a crafted ring instead, but you will have very low piety and less HP."
+      ]
+    },
+    "Neck": {
+      "id": 38069,
+      "materia": [
+        {
+          "id": 33932
+        },
+        {
+          "id": 33930
+        }
+      ]
+    },
+    "Wrist": {
+      "id": 38074,
+      "materia": [
+        {
+          "id": 33931
+        },
+        {
+          "id": 33931
+        }
+      ]
+    },
+    "Hand": {
+      "id": 40792,
+      "materia": [
+        {
+          "id": 33932
+        },
+        {
+          "id": 33931
+        }
+      ]
+    },
+    "RingLeft": {
+      "id": 38079,
+      "materia": [
+        {
+          "id": 33942
+        },
+        {
+          "id": 33942
+        }
+      ]
+    },
+    "RingRight": {
+      "id": 38154,
+      "materia": [
+        {
+          "id": 33942
+        },
+        {
+          "id": 33942
+        }
+      ]
+    },
+    "Legs": {
+      "id": 38054,
+      "materia": [
+        {
+          "id": 33931
+        },
+        {
+          "id": 33942
+        }
+      ]
+    },
+    "Feet": {
+      "id": 38130,
+      "materia": [
+        {
+          "id": 33942
+        },
+        {
+          "id": 33942
+        }
+      ]
     }
-  ],
-  "level": 90,
-  "job": "SGE",
-  "partyBonus": 0,
-  "race": "Keepers of the Moon",
-  "sims": [
-    {
-      "stub": "pr-sim",
-      "settings": {},
-      "name": "Dmg/100p"
-    },
-    {
-      "stub": "sge-sheet-sim",
-      "settings": {
-        "hasBard": false,
-        "hasScholar": false,
-        "hasDragoon": false,
-        "rezPerMin": 0,
-        "diagPerMin": 0,
-        "progPerMin": 0,
-        "eDiagPerMin": 0,
-        "eProgPerMin": 0,
-        "toxPerMin": 0
-      },
-      "name": "SGE Sheet Sim"
-    }
-  ],
-  "itemDisplaySettings": {
-    "minILvl": 630,
-    "maxILvl": 650,
-    "minILvlFood": 610,
-    "maxILvlFood": 999
   },
-  "mfni": false,
-  "mfp": [
-    "spellspeed",
-    "crit",
-    "dhit",
-    "determination",
-    "piety"
-  ],
-  "mfMinGcd": 2.05,
-  "ilvlSync": 635,
-  "description": "Sage's best-in-slot items for The Omega Protocol"
+  "food": 39876,
+  "description": "",
+  "job": "SGE",
+  "level": 90,
+  "ilvlSync": 635
 }

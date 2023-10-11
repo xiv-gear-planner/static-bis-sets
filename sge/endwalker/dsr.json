@@ -1,0 +1,660 @@
+{
+  "name": "6.5 Sage DSR Sets",
+  "sets": [
+    {
+      "name": "Base set with no melds, do not use.",
+      "items": {
+        "Weapon": {
+          "id": 35262,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
+        },
+        "Head": {
+          "id": 38982,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
+        },
+        "Ears": {
+          "id": 35303,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
+        },
+        "Body": {
+          "id": 35291,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
+        },
+        "Neck": {
+          "id": 39000,
+          "materia": [
+            {
+              "id": -1
+            }
+          ]
+        },
+        "Hand": {
+          "id": 35217,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
+        },
+        "Wrist": {
+          "id": 35313,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
+        },
+        "Legs": {
+          "id": 35218,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
+        },
+        "RingLeft": {
+          "id": 35243,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
+        },
+        "Feet": {
+          "id": 35294,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
+        },
+        "RingRight": {
+          "id": 35318,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
+        }
+      },
+      "description": ""
+    },
+    {
+      "name": "6.5 DSR 611 - Crit/Det Relic ",
+      "items": {
+        "Weapon": {
+          "id": 39937,
+          "materia": [],
+          "relicStats": {
+            "crit": 293,
+            "dhit": 0,
+            "determination": 293,
+            "spellspeed": 72,
+            "piety": 0
+          }
+        },
+        "Head": {
+          "id": 38982,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Ears": {
+          "id": 35303,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33942
+            }
+          ]
+        },
+        "Body": {
+          "id": 35291,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33932
+            }
+          ]
+        },
+        "Neck": {
+          "id": 39000,
+          "materia": [
+            {
+              "id": 33932
+            }
+          ]
+        },
+        "Hand": {
+          "id": 35217,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Wrist": {
+          "id": 35313,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "RingLeft": {
+          "id": 35318,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "RingRight": {
+          "id": 35243,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33933
+            }
+          ]
+        },
+        "Feet": {
+          "id": 35294,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Legs": {
+          "id": 38985,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        }
+      },
+      "food": 39876,
+      "description": "This set is intended for you to be doing the 611 strat as it saves a lot of mana requiring little to none. If you want to lose extra Piety you can replace your piety ring with a 660 augmented tome ring"
+    },
+    {
+      "name": "6.5 DSR 332 - Crit/Det Relic",
+      "items": {
+        "Weapon": {
+          "id": 39937,
+          "materia": [],
+          "relicStats": {
+            "crit": 293,
+            "dhit": 0,
+            "determination": 293,
+            "spellspeed": 72,
+            "piety": 0
+          }
+        },
+        "Head": {
+          "id": 38982,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33942
+            }
+          ]
+        },
+        "Ears": {
+          "id": 35303,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Body": {
+          "id": 35291,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33932
+            }
+          ]
+        },
+        "Neck": {
+          "id": 39000,
+          "materia": [
+            {
+              "id": 33932
+            }
+          ]
+        },
+        "Hand": {
+          "id": 38984,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Wrist": {
+          "id": 35313,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "RingLeft": {
+          "id": 35318,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "RingRight": {
+          "id": 35243,
+          "materia": [
+            {
+              "id": 33942
+            },
+            {
+              "id": 33933
+            }
+          ]
+        },
+        "Feet": {
+          "id": 35294,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Legs": {
+          "id": 35218,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33932
+            }
+          ]
+        }
+      },
+      "food": 39876,
+      "description": "This set is intended for you to be doing the 332 strat. This strat requires more GCD heals during Ahk Morn so it requires a bit more piety."
+    },
+    {
+      "name": "6.5 DSR 611 - No Relic",
+      "items": {
+        "Weapon": {
+          "id": 35262,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33932
+            }
+          ]
+        },
+        "Head": {
+          "id": 38982,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Ears": {
+          "id": 35303,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Body": {
+          "id": 35291,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33932
+            }
+          ]
+        },
+        "Neck": {
+          "id": 39000,
+          "materia": [
+            {
+              "id": 33932
+            }
+          ]
+        },
+        "Hand": {
+          "id": 35217,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Wrist": {
+          "id": 35313,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Legs": {
+          "id": 35218,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33932
+            }
+          ]
+        },
+        "RingLeft": {
+          "id": 40163,
+          "materia": []
+        },
+        "RingRight": {
+          "id": 35318,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Feet": {
+          "id": 35294,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        }
+      },
+      "food": 39872,
+      "description": ""
+    },
+    {
+      "name": "6.5 DSR 332 - No Relic",
+      "items": {
+        "Weapon": {
+          "id": 35262,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33932
+            }
+          ]
+        },
+        "Head": {
+          "id": 38982,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Ears": {
+          "id": 35303,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Body": {
+          "id": 35291,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33932
+            }
+          ]
+        },
+        "Neck": {
+          "id": 39000,
+          "materia": [
+            {
+              "id": 33932
+            }
+          ]
+        },
+        "Hand": {
+          "id": 38984,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Wrist": {
+          "id": 35313,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Legs": {
+          "id": 35218,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33932
+            }
+          ]
+        },
+        "RingLeft": {
+          "id": 35243,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33933
+            }
+          ]
+        },
+        "RingRight": {
+          "id": 35318,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Feet": {
+          "id": 35294,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        }
+      },
+      "food": 39872,
+      "description": ""
+    }
+  ],
+  "level": 90,
+  "job": "SGE",
+  "partyBonus": 5,
+  "race": "Wildwood",
+  "sims": [
+    {
+      "stub": "sge-sheet-sim",
+      "settings": {
+        "hasBard": true,
+        "hasScholar": true,
+        "hasDragoon": true,
+        "rezPerMin": 0,
+        "diagPerMin": 0,
+        "progPerMin": 0,
+        "eDiagPerMin": 0,
+        "eProgPerMin": 0,
+        "toxPerMin": 0
+      },
+      "name": "SGE Sheet Sim"
+    }
+  ],
+  "itemDisplaySettings": {
+    "minILvl": 600,
+    "maxILvl": 605,
+    "minILvlFood": 640,
+    "maxILvlFood": 999
+  },
+  "mfni": false,
+  "mfp": [
+    "spellspeed",
+    "crit",
+    "dhit",
+    "determination",
+    "piety"
+  ],
+  "mfMinGcd": 2.05,
+  "ilvlSync": 605,
+  "description": "Sage Bis sheet for Dragon Song Reprise, Updated for 6.5"
+}
