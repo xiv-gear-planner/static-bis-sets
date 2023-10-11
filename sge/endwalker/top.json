@@ -1,128 +1,534 @@
 {
-  "name": "6.5 TOP BiS - Non Relic Weapon",
-  "items": {
-    "Weapon": {
-      "id": 38098,
-      "materia": [
-        {
-          "id": 33931
+  "name": "6.5 Sage TOP Sets",
+  "sets": [
+    {
+      "name": "Base set with no melds, do not use.",
+      "items": {
+        "Weapon": {
+          "id": 39937,
+          "materia": [],
+          "relicStats": {
+            "crit": 0,
+            "dhit": 0,
+            "determination": 0,
+            "spellspeed": 0,
+            "piety": 0
+          }
         },
-        {
-          "id": 33931
-        }
-      ]
-    },
-    "Head": {
-      "id": 38051,
-      "materia": [
-        {
-          "id": 33931
+        "Head": {
+          "id": 38051,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
         },
-        {
-          "id": 33931
-        }
-      ]
-    },
-    "Ears": {
-      "id": 40803,
-      "materia": [
-        {
-          "id": 33931
-        }
-      ]
-    },
-    "Body": {
-      "id": 38127,
-      "materia": [
-        {
-          "id": 33931
+        "Ears": {
+          "id": 40803,
+          "materia": [
+            {
+              "id": -1
+            }
+          ]
         },
-        {
-          "id": 33931
-        }
-      ]
-    },
-    "Neck": {
-      "id": 38069,
-      "materia": [
-        {
-          "id": 33932
+        "Neck": {
+          "id": 38069,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
         },
-        {
-          "id": 33930
-        }
-      ]
-    },
-    "Wrist": {
-      "id": 38074,
-      "materia": [
-        {
-          "id": 33931
+        "Body": {
+          "id": 38127,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
         },
-        {
-          "id": 33931
-        }
-      ]
-    },
-    "Hand": {
-      "id": 40792,
-      "materia": [
-        {
-          "id": 33932
+        "Hand": {
+          "id": 40792,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
         },
-        {
-          "id": 33931
-        }
-      ]
-    },
-    "RingLeft": {
-      "id": 38079,
-      "materia": [
-        {
-          "id": 33942
+        "Wrist": {
+          "id": 38074,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
         },
-        {
-          "id": 33942
-        }
-      ]
-    },
-    "RingRight": {
-      "id": 38154,
-      "materia": [
-        {
-          "id": 33942
+        "RingLeft": {
+          "id": 38154,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
         },
-        {
-          "id": 33942
-        }
-      ]
-    },
-    "Legs": {
-      "id": 38054,
-      "materia": [
-        {
-          "id": 33931
+        "Legs": {
+          "id": 38054,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
         },
-        {
-          "id": 33942
-        }
-      ]
-    },
-    "Feet": {
-      "id": 38130,
-      "materia": [
-        {
-          "id": 33942
+        "Feet": {
+          "id": 38130,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
         },
-        {
-          "id": 33942
+        "RingRight": {
+          "id": 38079,
+          "materia": [
+            {
+              "id": -1
+            },
+            {
+              "id": -1
+            }
+          ]
         }
-      ]
+      },
+      "description": ""
+    },
+    {
+      "name": "6.5 TOP BiS - Crit/Det Relic",
+      "items": {
+        "Head": {
+          "id": 38051,
+          "materia": [
+            {
+              "id": 33942
+            },
+            {
+              "id": 33933
+            }
+          ]
+        },
+        "Body": {
+          "id": 38127,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Hand": {
+          "id": 40792,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Legs": {
+          "id": 38054,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Feet": {
+          "id": 38130,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Ears": {
+          "id": 40803,
+          "materia": [
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Neck": {
+          "id": 38069,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Wrist": {
+          "id": 38074,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33933
+            }
+          ]
+        },
+        "RingLeft": {
+          "id": 40818,
+          "materia": [
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "RingRight": {
+          "id": 38154,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Weapon": {
+          "id": 39937,
+          "materia": [],
+          "relicStats": {
+            "crit": 293,
+            "dhit": 0,
+            "determination": 293,
+            "spellspeed": 72,
+            "piety": 0
+          }
+        }
+      },
+      "food": 39876
+    },
+    {
+      "name": "6.5 TOP BiS - Crit/SPS Relic",
+      "items": {
+        "Weapon": {
+          "id": 39937,
+          "materia": [],
+          "relicStats": {
+            "crit": 293,
+            "determination": 72,
+            "spellspeed": 293,
+            "dhit": 0,
+            "piety": 0
+          }
+        },
+        "Head": {
+          "id": 38051,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Body": {
+          "id": 38127,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33933
+            }
+          ]
+        },
+        "Hand": {
+          "id": 40792,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Legs": {
+          "id": 38054,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Feet": {
+          "id": 38130,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Ears": {
+          "id": 40803,
+          "materia": [
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Neck": {
+          "id": 38069,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Wrist": {
+          "id": 38074,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "RingLeft": {
+          "id": 40818,
+          "materia": [
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "RingRight": {
+          "id": 38154,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        }
+      },
+      "food": 39872
+    },
+    {
+      "name": "6.5 TOP BiS - Non Relic Weapon",
+      "items": {
+        "Weapon": {
+          "id": 38098,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Head": {
+          "id": 38051,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Ears": {
+          "id": 40803,
+          "materia": [
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Body": {
+          "id": 38127,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Neck": {
+          "id": 38069,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33930
+            }
+          ]
+        },
+        "Wrist": {
+          "id": 38074,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "Hand": {
+          "id": 40792,
+          "materia": [
+            {
+              "id": 33932
+            },
+            {
+              "id": 33931
+            }
+          ]
+        },
+        "RingLeft": {
+          "id": 38079,
+          "materia": [
+            {
+              "id": 33942
+            },
+            {
+              "id": 33942
+            }
+          ]
+        },
+        "RingRight": {
+          "id": 38154,
+          "materia": [
+            {
+              "id": 33942
+            },
+            {
+              "id": 33942
+            }
+          ]
+        },
+        "Legs": {
+          "id": 38054,
+          "materia": [
+            {
+              "id": 33931
+            },
+            {
+              "id": 33942
+            }
+          ]
+        },
+        "Feet": {
+          "id": 38130,
+          "materia": [
+            {
+              "id": 33942
+            },
+            {
+              "id": 33942
+            }
+          ]
+        }
+      },
+      "food": 39876,
+      "description": ""
     }
-  },
-  "food": 39876,
-  "description": "",
-  "job": "SGE",
+  ],
   "level": 90,
-  "ilvlSync": 635
+  "job": "SGE",
+  "partyBonus": 5,
+  "race": "Wildwood",
+  "sims": [
+    {
+      "stub": "sge-sheet-sim",
+      "settings": {
+        "hasBard": false,
+        "hasScholar": false,
+        "hasDragoon": false,
+        "rezPerMin": 0,
+        "diagPerMin": 0,
+        "progPerMin": 0,
+        "eDiagPerMin": 0,
+        "eProgPerMin": 0,
+        "toxPerMin": 0
+      },
+      "name": "SGE Sheet Sim"
+    }
+  ],
+  "itemDisplaySettings": {
+    "minILvl": 630,
+    "maxILvl": 645,
+    "minILvlFood": 640,
+    "maxILvlFood": 999
+  },
+  "mfni": false,
+  "mfp": [
+    "crit",
+    "dhit",
+    "determination",
+    "spellspeed",
+    "piety"
+  ],
+  "mfMinGcd": 2.05,
+  "ilvlSync": 635,
+  "description": "Sage BiS sheet for The Omega Protocol Ultimate"
 }
