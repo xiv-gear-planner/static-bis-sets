@@ -1,0 +1,17 @@
+{
+  "name": "bis-index-generator",
+  "version": "1.0.0",
+  "description": "Generator for BiS index",
+  "main": "indexer.ts",
+  "type": "module",
+  "scripts": {
+    "indexer": "node --loader ts-node/esm indexer.ts"
+  },
+  "keywords": [],
+  "author": "xp",
+  "license": "GPL v3",
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "ts-node": "^10.9.1"
+  }
+}
