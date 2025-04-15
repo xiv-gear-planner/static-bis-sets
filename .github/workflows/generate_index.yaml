@@ -3,7 +3,7 @@ name: Regenerate JSON Index
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   generate-index:
