@@ -32,7 +32,7 @@ jobs:
           git add _index.json
           set +e
           git commit -m "regenerate index"
-          if [ $? -eq 0]; then
+          if [ $? -eq 0 ]; then
             set -e
             git push
           else
