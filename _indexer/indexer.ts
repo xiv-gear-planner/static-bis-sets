@@ -10,7 +10,7 @@ type LeafNode = {
 }
 
 type DirNode = {
-    name: string,
+    fileName: string,
     type: 'dir',
     children: AnyNode[],
 }
@@ -45,7 +45,7 @@ async function buildTree(targetPath: string): Promise<AnyNode | null> {
         // Only include the directory if it has children
         if (validChildren.length > 0) {
             return {
-                name,
+                fileName: name,
                 type: 'dir',
                 children: validChildren
             } satisfies DirNode;
