@@ -20,6 +20,7 @@ async function getTimestamp(p: string): Promise<number | null> {
         format: {ts: '%ct'}
     });
     const tsRaw = logResult.latest?.ts;
+    // Git gives us the timestamp in seconds, we want millis
     return tsRaw === undefined ? null : parseInt(tsRaw) * 1000;
 }
 
@@ -39,12 +40,15 @@ else {
             return ((async () => {
                 const p = path.join(...(containingDir as string[]), node.fileName);
                 const contents = JSON.parse((await fs.readFile(p)).toString());
-                contents['timestamp'] = await getTimestamp(p);
+                if (!('timestamp' in contents)) {
+                    contents['timestamp'] = await getTimestamp(p);
+                }
                 await fs.writeFile(p, JSON.stringify(contents));
             })());
         }
     }
 
-    console.log("Beginning file walk")
+    console.log("Beginning timestamp update")
     await updateTs(null, root);
+    console.log("Done with timestamp update")
 }
