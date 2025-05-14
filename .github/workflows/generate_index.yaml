@@ -31,7 +31,7 @@ jobs:
           git config --global user.email "actions@github.com"
           git add _index.json
           set +e
-          git commit -m "regenerate index"
+          git commit -am "regenerate index"
           if [ $? -eq 0 ]; then
             set -e
             git push
