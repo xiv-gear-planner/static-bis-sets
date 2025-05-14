@@ -17,13 +17,14 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Regenerate index and commit
+      - name: Regenerate index, add timestamps, and commit
         run: |
           set -eu
           pushd _indexer
           # Run the script
           npm ci
           npm run indexer
+          npm run timestamper
           popd
           
           # Commit changes
