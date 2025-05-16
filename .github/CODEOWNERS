@@ -1,0 +1,39 @@
+# Each line is a file pattern followed by one or more owners. Being an owner
+# means those groups or individuals will be added as reviewers to PRs affecting
+# those areas of the code.
+#
+# More on CODEOWNERS files: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners
+
+/.github/ @xpdota
+
+# Tanks
+/pld/ @amakiirs
+/war/ @ElAtiendeBoludos @Moxfi @Vantablak
+/drk/ @VioletStardustXIV @amakiirs @aPileofCats
+/gnb/ @kromuluss
+
+# Healers
+/whm/ @xpdota @ShyShys @symphonicabyss1
+/sch/ @xpdota @ShyShys @symphonicabyss1
+/ast/ @xpdota @ShyShys @symphonicabyss1
+/sge/ @xpdota @ShyShys @symphonicabyss1
+
+# Melee
+/mnk/
+/drg/
+/nin/
+/sam/
+/rpr/
+/vpr/
+
+# Physical Ranged
+/brd/
+/mch/
+/dnc/
+
+# Casters
+/blm/
+/smn/
+/rdm/
+/pct/
+/blu/
