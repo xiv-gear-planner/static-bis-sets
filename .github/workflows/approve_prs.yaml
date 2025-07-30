@@ -1,5 +1,7 @@
-on:
-  push:
+
+name: Approve PRs to static BiS for anyone with write access
+on: 
+  pull_request_target:
     paths:
       - war/**
       - gnb/**
@@ -27,10 +29,6 @@ on:
       - rdm/**
       - pct/**
       - blu/**
-
-
-name: Approve PRs to static BiS for anyone with write access
-on: pull_request_target
 
 jobs:
   build:
