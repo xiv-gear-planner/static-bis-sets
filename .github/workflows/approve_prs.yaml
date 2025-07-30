@@ -1,0 +1,46 @@
+on:
+  push:
+    paths:
+      - war/**
+      - gnb/**
+      - pld/**
+      - drk/**
+      
+      - whm/**
+      - sch/**
+      - ast/**
+      - sge/**
+
+      - mnk/**
+      - drg/**
+      - nin/**
+      - sam/**
+      - rpr/**
+      - vpr/**
+
+      - brd/**
+      - mch/**
+      - dnc/**
+
+      - blm/**
+      - smn/**
+      - rdm/**
+      - pct/**
+      - blu/**
+
+
+name: Approve PRs to static BiS for anyone with write access
+on: pull_request_target
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Enforce permission requirement
+        uses: prince-chrismc/check-actor-permissions-action@v3
+        with:
+          permission: write  
+      - if: steps.check.outputs.permitted == 'true'
+        uses: hmarr/auto-approve-action@v4
