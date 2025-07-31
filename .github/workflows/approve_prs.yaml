@@ -1,4 +1,3 @@
-
 name: Approve PRs to static BiS for anyone with write access
 on: 
   pull_request_target:
@@ -40,5 +39,5 @@ jobs:
         uses: prince-chrismc/check-actor-permissions-action@v3
         with:
           permission: write  
-      - if: steps.check.outputs.permitted == 'true'
+      - name: Approve pull request
         uses: hmarr/auto-approve-action@v4
