@@ -41,3 +41,5 @@ jobs:
           permission: write  
       - name: Approve pull request
         uses: hmarr/auto-approve-action@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
