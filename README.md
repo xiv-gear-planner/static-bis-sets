@@ -18,7 +18,7 @@ To edit a set title/description, select the set, then click "Change Name/Descrip
 
 Once you're satisfied, preview the sheet by clicking Export > Preview Set:
 
-![How to preview a set](docs/preview.png)
+![How to preview a set](_docs/preview.png)
 
 Make sure everything looks good.
 
@@ -31,17 +31,17 @@ you will need to create them.
 
 You can do all of this via the GitHub web interface. You must be logged in. To create a new file, simply click the "Add file" menu, then "Create new file".
 
-![How to create a new file](docs/create-new-file.png)
+![How to create a new file](_docs/create-new-file.png)
 
 In the top left, enter the file path. You can create the necessary folders in this manner - simply type 'pld/shadowbringers/tea.json', and it will
 turn the slashes into folders:
 
-![How to enter the file path](docs/enter-file-path.png)
+![How to enter the file path](_docs/enter-file-path.png)
 
 Now, paste the JSON you copied earlier into this file. It will most likely be one (very long) line.
 
 When you are done, click "Commit changes...". Enter a brief description of what you changed and why, and select the "Create a new branch for this commit and start a pull request":
 
-![How to commit and create a pull request](docs/commit-and-pr.png)
+![How to commit and create a pull request](_docs/commit-and-pr.png)
 
 Finally, click "Propose Changes". Click "Create pull request", and ping someone with it in discord to make sure they see it.
