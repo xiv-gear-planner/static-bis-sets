@@ -14,11 +14,11 @@ RUN set -eu && \
   npm run indexer && \
   npm run timestamper
 
+RUN git status
+
 RUN mkdir -p /tmp/out
 
 
-RUN ls -la
-RUN ls -la sge/endwalker
 RUN cp _index.json /tmp/out/
 RUN if [ -f version_info.txt ]; then cp version_info.txt /tmp/out/; fi; true
 RUN find . -mindepth 1 -maxdepth 1 -type d -name "???" -exec cp -r {} /tmp/out/ \;
