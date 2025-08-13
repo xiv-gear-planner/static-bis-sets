@@ -1,4 +1,4 @@
-name: Frontend - Build and Publish Container Image
+name: Build and publish container image
 
 on:
   push:
