@@ -42,6 +42,10 @@ else {
                 const contents = JSON.parse((await fs.readFile(p)).toString());
                 if (!('timestamp' in contents)) {
                     contents['timestamp'] = await getTimestamp(p);
+                    console.log(`Updating timestamp for ${p}`);
+                }
+                else {
+                    console.log(`NOT updating timestamp for ${p}`);
                 }
                 await fs.writeFile(p, JSON.stringify(contents));
             })());
