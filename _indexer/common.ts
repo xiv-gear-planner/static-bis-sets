@@ -43,6 +43,7 @@ export async function buildTree(targetPath: string): Promise<AnyNode | null> {
 
         // Only include the directory if it has children
         if (validChildren.length > 0) {
+            // Sort - anything that looks like a job name should be first, followed by anything else
             return {
                 fileName: name,
                 type: 'dir',
@@ -59,7 +60,14 @@ export async function buildTree(targetPath: string): Promise<AnyNode | null> {
             fileName: name,
             type: 'file',
         };
-        const json = JSON.parse(contents);
+        let json: any;
+        try {
+            json = JSON.parse(contents);
+        }
+        catch (e) {
+            console.error(`Error reading file ${targetPath}`, e);
+            throw e;
+        }
         if (json['name']) {
             out.contentName = json['name'];
         }
